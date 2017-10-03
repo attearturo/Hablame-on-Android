@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_comentario"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#e8e8e8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+
+            />
+
+        <TextView
+            android:id="@+id/comentario_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="Hey"
+            android:textColor="#686868"
+            android:textSize="40px" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/comentario_contenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin diam nisl, elementum eget cursus non, vulputate non turpis. Aliquam at pharetra lacus, eu eleifend lacus. Vivamus feugiat mauris vel mi ultricies, quis varius erat imperdiet. Phasellus sit amet mi placerat, ornare metus at, commodo risus."
+        android:textColor="#2d2d2d" />
+
+
+</LinearLayout>

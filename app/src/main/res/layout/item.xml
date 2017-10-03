@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_publicacion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp"
+    tools:context="com.example.estudiante.social.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/user"
+
+            />
+
+        <TextView
+            android:id="@+id/texto_publicacion_usuario"
+            android:layout_width="191dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="Nombre Apellido"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="20 / 20 / 20"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/texto_publicacion_contenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin diam nisl, elementum eget cursus non, vulputate non turpis. Aliquam at pharetra lacus, eu eleifend lacus. "
+        android:textColor="@color/cardview_dark_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="1 nota"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.00"
+            android:background="@mipmap/call" />
+
+        <Button
+            android:id="@+id/mensaje"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.00"
+            android:background="@mipmap/msg" />
+
+
+        <Button
+            android:id="@+id/fab"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.00"
+            android:background="@mipmap/heart" />
+    </LinearLayout>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/r_view_comentarios"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/cuadro_publicar"-->
+    <!--android:padding="20dp"-->
+    <!--android:scrollbars="vertical">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+
+</LinearLayout>
